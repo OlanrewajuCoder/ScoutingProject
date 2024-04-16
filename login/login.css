@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: box sizing;
+}
+
+#acct{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 50px 0 0 -130px;
+
+}
+.parent{
+    display: flex;
+}
+.child1{
+    width: 50%;
+    height: 100vh;
+    margin-top: 150px;
+}
+.container{
+    background-color: #FFC09F;
+    width: 50%;
+    height: 100vh;
+}
+#form{
+width: 450px;
+padding: 40px;
+border-radius: 5px;
+margin: auto;
+}
+
+label{
+    font-size: 15px;
+}
+
+#email{
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+}
+#password::placeholder{
+    padding: 10px;
+    color: #888;
+    font-style: italic;
+    padding: 10px;
+}
+#email::placeholder {
+    color: #888; 
+    font-style: italic;
+    padding: 10px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+}
+#gender{
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+}
+#education{
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+}
+#checkbox{
+    height: 15px;
+    margin: 14px 0 0 -140px;
+    padding-left: 580px;
+}
+
+#terms{
+    margin: 0 0 0 -140px;
+    font-weight: bold;
+}
+.continue{
+    background-color:rgba(255, 255, 0, 0.492) ;
+    border: none;
+    height: 25px;
+    width: 300px;
+    justify-content: center;
+    font-weight: bolder;
+    margin: 15px 0 12px 0;
+}
+.account{
+    margin: 0 0 0 50px;
+}
+
+.login{
+    border: none;
+    color: blue;
+    margin: 0 0 0 7px;
+    cursor: pointer;
+}
+.hello{
+    margin: 250px 0 0 130px;
+}
+.scouting{   
+    margin: 0 0 10px 130px;
+    letter-spacing: 20px;
+    font-weight: bolder;
+}
+.create{
+    margin:5px 0 0 130px;
+}
+
+.create a{
+    text-decoration: none;
+}
+hr{
+    width: 350px;
+    height: 2px;
+    background-color: rgb(70, 70, 99);
+    margin: 0 0 0 130px;
+    max-width: 500 ;
+}

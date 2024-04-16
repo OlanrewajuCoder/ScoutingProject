@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+}
+#image{
+    width: 200px;
+    height: 60px;
+    margin: 20px 50px 0 50px;
+}
+.home{
+    margin: 20px 0 0 282px;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid black;
+}
+.scout{
+    margin: 20px 30px 0 30px;
+    background-color: yellow; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+.sign{
+    margin: 20px 30px 0 250px;
+    background-color: rgba(98, 98, 187, 0.704);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+.log{
+    margin: 20px 30px 0 0px;
+    background-color: rgba(98, 98, 187, 0.704);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+/* section 2 */
+.section2{
+    display: flex;
+    justify-content: center;
+}
+.utilize{
+    margin: 20px 0 0 50px;
+    width: 50%;
+    word-spacing: 10px;
+    font-size: 60px;
+    align-self: center;
+
+}
+#session{
+    margin: 50px 95px 0 0px;
+    width: 50%;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.group{
+    margin: 15px;
+    background-color: yellow;
+    border: none;
+    padding: 6px;
+}
+.jpeg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.secondRow{
+    display: flex;
+    justify-content: center;    
+}
+
+.help{
+    background-color: #FFC09F;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    font-weight: bold;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+}
+.featured{
+    font-weight: bold;
+    margin: 15px 1200px 0 0px;
+}
+.more{
+    margin: 15px 60px 0 0;
+    opacity: 0.5;
+}
+#logo{
+    width: 250px;
+    margin: 40px;
+}
+
+figcaption{
+    margin: -22px 0 0 45px;
+}
+.section8{
+    display: flex;
+    height: 80px;
+    background-color:  #FFC09F;  
+    margin-top: 40px;
+
+}
+.view{
+    font-weight: bold;
+    margin: 40px 45px 0 0;
+}
+#jpg{
+    width: 150px;
+    height: 50px;
+    margin: 15px 750px 20px 120px;
+}
+.section10{
+    display: flex;
+    height: 80px;
+    background-color:  #FFC09F;  
+    margin: 0px;
+}
+.book{
+    margin: 5px 650px 20px 120px;
+    font-size: larger;
+    font-weight: 500;
+}
+.ol1{
+    font-weight: bold;
+    list-style-type: none;
+    margin: -5px 45px 0 0;
+    line-height: 20px;
+}
+.ol1 a{
+    text-decoration: none;
+}
